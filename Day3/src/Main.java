@@ -17,6 +17,20 @@ public class Main {
 
         Dog d = new Dog("Tyson");
         Cat c = new Cat("Billi");
+        Bat b = new Bat("Tom");
+        Fish f = new Fish("Lilly");
+        Ostrich o  = new Ostrich("Billy");
+        Parrot p = new Parrot("Cilly");
+
+        Animal[] animals = { d, c, b, f, o, p };
+
+        for (Animal animal : animals) {
+            animal.makeNoise();
+            animal.roam();
+            animal.eat();
+            animal.sleep();
+            System.out.println();
+        }
 
         AnimalUtils animalUtils = new AnimalUtils();
         animalUtils.addanimal(d);

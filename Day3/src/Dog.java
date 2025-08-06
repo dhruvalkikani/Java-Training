@@ -9,8 +9,14 @@ public class Dog extends Animal{
         System.out.println(getName()+" Playing");
     }
 
+    @Override
     public void makeNoise(){
         System.out.println(getName()+" Bhow Bhow");
+    }
+
+    @Override
+    public void roam() {
+        System.out.println(getName()+" Roaming");
     }
 
 }

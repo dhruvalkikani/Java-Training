@@ -1,23 +1,23 @@
-public class Animal {
+public abstract class Animal {
     private String name;
 
     public Animal(){}
 
     public Animal(String name){
-        this.name=name;
+        this.name = name;
     }
+
     public void eat(){
-        System.out.println(name+"  cat is eating");
+        System.out.println(name + " is eating");
     }
-    public void makeNoise(){
-        System.out.println(name+"  is making noise");
-    }
+
+    public abstract void makeNoise();
+
     public void sleep(){
-        System.out.println(name+"  dog is sleeping");
+        System.out.println(name + " is sleeping");
     }
-    public void roam(){
-        System.out.println(name+"  cat is roaming");
-    }
+
+    public abstract void roam();
 
     public String getName() {
         return name;

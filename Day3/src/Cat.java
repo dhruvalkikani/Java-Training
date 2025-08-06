@@ -12,4 +12,9 @@ public class Cat extends Animal{
         System.out.println(getName()+" meau meau");
     }
 
+    @Override
+    public void roam() {
+        System.out.println(getName()+" Roaming");
+    }
+
 }
