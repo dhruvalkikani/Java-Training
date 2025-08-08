@@ -1,4 +1,6 @@
-public class Dog extends Animal{
+package com.masai.entity;
+
+public class Dog extends Animal implements Swimable {
 
     public Dog(String name) {
         super(name);
@@ -19,4 +21,8 @@ public class Dog extends Animal{
         System.out.println(getName()+" Roaming");
     }
 
+    @Override
+    public void swim() {
+        System.out.println(getName()+"Swimming");
+    }
 }

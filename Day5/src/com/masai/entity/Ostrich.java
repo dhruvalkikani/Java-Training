@@ -1,3 +1,5 @@
+package com.masai.entity;
+
 public class Ostrich extends  Bird{
     public Ostrich() {
     }

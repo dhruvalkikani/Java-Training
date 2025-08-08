@@ -1,3 +1,5 @@
+package com.masai.entity;
+
 public abstract class Animal {
     private String name;
 

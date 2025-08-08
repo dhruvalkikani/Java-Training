@@ -1,4 +1,6 @@
-public class Fish extends Animal{
+package com.masai.entity;
+
+public class Fish extends Animal implements Swimable{
     @Override
     public void makeNoise() {
         System.out.println(getName()+" chap chap");
@@ -14,5 +16,10 @@ public class Fish extends Animal{
     @Override
     public void roam() {
         System.out.println(getName()+" Roaming");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println(getName()+"Swimming");
     }
 }

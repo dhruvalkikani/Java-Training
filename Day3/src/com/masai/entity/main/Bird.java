@@ -1,4 +1,6 @@
-public abstract class Bird extends Animal{
+package com.masai;
+
+public abstract class Bird extends Animal {
     public Bird() {
     }
 

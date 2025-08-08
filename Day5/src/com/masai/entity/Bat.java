@@ -1,4 +1,6 @@
-public class Bat extends Animal{
+package com.masai.entity;
+
+public class Bat extends Animal implements Flyable, Swimable {
     public Bat(String name) {
         super(name);
     }
@@ -14,5 +16,15 @@ public class Bat extends Animal{
     @Override
     public void roam() {
         System.out.println(getName()+" Roaming");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println(getName()+"Flying");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println(getName()+"Swimming");
     }
 }
