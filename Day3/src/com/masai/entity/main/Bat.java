@@ -1,4 +1,4 @@
-package com.masai;
+package com.masai.entity.main;
 
 public class Bat extends Animal {
     public Bat(String name) {

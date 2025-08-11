@@ -1,4 +1,4 @@
-package com.masai;
+package com.masai.entity.main;
 
 public class Dog extends Animal {
 

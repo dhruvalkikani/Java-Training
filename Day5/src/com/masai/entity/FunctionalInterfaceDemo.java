@@ -1,9 +1,6 @@
 package com.masai.entity;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
@@ -95,6 +92,22 @@ public class FunctionalInterfaceDemo {
                 new Employee(80000, "Developer","Charlie" ),
                 new Employee(60000,"Tester", "Beta")
         );
+
+
+        for (Employee employee : employees) {
+            System.out.println(employee.toString());
+        }
+
+        System.out.println("Before");
+        System.out.println(employees);
+        System.out.println("After");
+        Collections.sort(employees);
+        System.out.println(employees);
+        Collections.sort(employees,(e1,e2) -> e1.getName().compareTo(e2.getName()));
+        System.out.println("Sorted in aplhabetical order");
+        System.out.println(employees);
+
+
 
         List<Employee> sortedBySalary = sortBySalary(employees);
 

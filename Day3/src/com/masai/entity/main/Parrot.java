@@ -1,4 +1,4 @@
-package com.masai;
+package com.masai.entity.main;
 
 public class Parrot extends  Bird{
     public Parrot(String name) {
@@ -7,7 +7,7 @@ public class Parrot extends  Bird{
 
     @Override
     public void makeNoise() {
-        System.out.println(getName()+" com.masai.Parrot");
+        System.out.println(getName()+" com.masai.entity.main.Parrot");
     }
 
     @Override

@@ -1,18 +1,23 @@
+package main;
+
+import com.masai.entity.main.*;
+import utlis.AnimalUtils;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-//        Animal animal=new Animal("name....");
+//        com.masai.entity.main.Animal animal=new com.masai.entity.main.Animal("name....");
 //
 //        animal.makeNoise();
 //
-//        Cat an = new Cat();
+//        com.masai.entity.main.Cat an = new com.masai.entity.main.Cat();
 //        an.makeNoise();
 //
-//        Animal a= new Cat();
+//        com.masai.entity.main.Animal a= new com.masai.entity.main.Cat();
 //        a.makeNoise();
 //
-//        Cat c = (Cat)a;
+//        com.masai.entity.main.Cat c = (com.masai.entity.main.Cat)a;
 //        c.jump();
 
         Dog d = new Dog("Tyson");

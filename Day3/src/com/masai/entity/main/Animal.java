@@ -1,4 +1,4 @@
-package com.masai;
+package com.masai.entity.main;
 
 public abstract class Animal {
     private String name;
